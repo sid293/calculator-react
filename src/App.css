@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.buttonsDivWrapper{
+  display:flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.buttonsDiv{
+  /* border:2px solid black; */
+  display:grid;
+  grid-template-columns:repeat(4, 50px);
+  justify-content: center;
+  grid-gap:10px;
+  height:40vh;
+  width:20vw;
+}
+
+.buttonsDiv>*{
+  height:50px;
+  width:50px;
+}
